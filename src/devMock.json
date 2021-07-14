@@ -1,1 +1,1603 @@
-{"numFailedTestSuites":6,"numFailedTests":5,"numPassedTestSuites":14,"numPassedTests":55,"numPendingTestSuites":0,"numPendingTests":1,"numRuntimeErrorTestSuites":2,"numTodoTests":1,"numTotalTestSuites":20,"numTotalTests":62,"openHandles":[],"snapshot":{"added":0,"didUpdate":false,"failure":false,"filesAdded":0,"filesRemoved":0,"filesRemovedList":[],"filesUnmatched":0,"filesUpdated":0,"matched":0,"total":0,"unchecked":0,"uncheckedKeysByFile":[],"unmatched":0,"updated":0},"startTime":1619931229930,"success":false,"testResults":[{"leaks":false,"numFailingTests":1,"numPassingTests":0,"numPendingTests":0,"numTodoTests":1,"openHandles":[],"perfStats":{"end":1619931235825,"runtime":4235,"slow":false,"start":1619931231590},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js","testResults":[{"ancestorTitles":["just examples"],"duration":8,"failureDetails":[{"actual":"","error":{},"expected":"","matcherName":"","message":"Error: Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.","passed":false,"stack":"Error: Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:581:19)\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:84:31)\n    at test (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n    at Suite.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:4:3)\n    at addSpecsToSuite (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n    at Env.describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n    at describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:3:1)\n    at Runtime._execModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:1217:24)\n    at Runtime._loadModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:828:12)\n    at Runtime.requireModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:679:10)\n    at jasmine2 (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/index.js:230:13)\n    at runTestInternal (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:372:22)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at runTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:464:34)\n    at Object.worker (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/testWorker.js:133:12)"}],"failureMessages":["Error: Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:581:19)\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:84:31)\n    at test (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n    at Suite.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:4:3)\n    at addSpecsToSuite (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n    at Env.describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n    at describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:3:1)\n    at Runtime._execModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:1217:24)\n    at Runtime._loadModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:828:12)\n    at Runtime.requireModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:679:10)\n    at jasmine2 (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/index.js:230:13)\n    at runTestInternal (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:372:22)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at runTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:464:34)\n    at Object.worker (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/testWorker.js:133:12)"],"fullName":"just examples encountered a declaration exception","location":null,"numPassingAsserts":0,"status":"failed","title":"encountered a declaration exception"},{"ancestorTitles":["just examples2"],"duration":0,"failureDetails":[],"failureMessages":[],"fullName":"just examples2 test for test todo","location":null,"numPassingAsserts":0,"status":"todo","title":"test for test todo"}],"failureMessage":"\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mjust examples › encountered a declaration exception\u001b[39m\u001b[22m\n\n    Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 2 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 | \u001b[39mdescribe(\u001b[32m\"just examples\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 4 | \u001b[39m  test(\u001b[32m\"test for test todo\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 5 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 6 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 | \u001b[39mdescribe(\u001b[32m\"just examples2\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Env.it (\u001b[22m\u001b[2mnode_modules/jest-jasmine2/build/jasmine/Env.js\u001b[2m:581:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Suite.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_todo.spec.js\u001b[39m\u001b[0m\u001b[2m:4:3)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_todo.spec.js\u001b[39m\u001b[0m\u001b[2m:3:1)\u001b[22m\u001b[2m\u001b[22m\n"},{"leaks":false,"numFailingTests":1,"numPassingTests":2,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931235950,"runtime":4298,"slow":false,"start":1619931231652},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed.spec.js","testResults":[{"ancestorTitles":["just examples"],"duration":7,"failureDetails":[],"failureMessages":[],"fullName":"just examples case 1","location":null,"numPassingAsserts":0,"status":"passed","title":"case 1"},{"ancestorTitles":["just examples"],"duration":18,"failureDetails":[{"actual":"","error":{"matcherResult":{"actual":1,"expected":2,"name":"toBe","pass":false}},"expected":"","matcherName":"","message":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m","passed":false,"stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed.spec.js:10:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}],"failureMessages":["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed.spec.js:10:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"],"fullName":"just examples case Failed","location":null,"numPassingAsserts":0,"status":"failed","title":"case Failed"},{"ancestorTitles":["just examples"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"just examples case 3","location":null,"numPassingAsserts":0,"status":"passed","title":"case 3"}],"failureMessage":"\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mjust examples › case Failed\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m2\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  8 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 | \u001b[39m  test(\u001b[32m'case Failed'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 10 | \u001b[39m    expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 | \u001b[39m  })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_failed.spec.js\u001b[39m\u001b[0m\u001b[2m:10:15)\u001b[22m\u001b[2m\u001b[22m\n"},{"leaks":false,"numFailingTests":1,"numPassingTests":0,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931235965,"runtime":4365,"slow":false,"start":1619931231600},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed_with_html.spec.js","testResults":[{"ancestorTitles":["just examples"],"duration":52,"failureDetails":[{"actual":"","error":{"matcherResult":{"actual":"<button>click</button>","expected":1,"name":"toBe","pass":false}},"expected":"","matcherName":"","message":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m\"<button>click</button>\"\u001b[39m","passed":false,"stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m\"<button>click</button>\"\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed_with_html.spec.js:6:38)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}],"failureMessages":["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m\"<button>click</button>\"\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed_with_html.spec.js:6:38)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"],"fullName":"just examples case 1","location":null,"numPassingAsserts":0,"status":"failed","title":"case 1"}],"failureMessage":"\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mjust examples › case 1\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m1\u001b[39m\n    Received: \u001b[31m\"<button>click</button>\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 | \u001b[39mdescribe(\u001b[32m'just examples'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 5 | \u001b[39m  test(\u001b[32m'case 1'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 6 | \u001b[39m    expect(\u001b[32m'<button>click</button>'\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 | \u001b[39m  })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 8 | \u001b[39m})\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 9 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_failed_with_html.spec.js\u001b[39m\u001b[0m\u001b[2m:6:38)\u001b[22m\u001b[2m\u001b[22m\n"},{"leaks":false,"numFailingTests":2,"numPassingTests":9,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931235981,"runtime":4392,"slow":false,"start":1619931231589},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js","testResults":[{"ancestorTitles":["c1 - 1","c2 - 1"],"duration":10,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 1 case 1","location":null,"numPassingAsserts":0,"status":"passed","title":"case 1"},{"ancestorTitles":["c1 - 1","c2 - 1"],"duration":2,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 1 case 2","location":null,"numPassingAsserts":0,"status":"passed","title":"case 2"},{"ancestorTitles":["c1 - 1","c2 - 1"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 1 case 3","location":null,"numPassingAsserts":0,"status":"passed","title":"case 3"},{"ancestorTitles":["c1 - 1","c2 - 1"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 1 case 1","location":null,"numPassingAsserts":0,"status":"passed","title":"case 1"},{"ancestorTitles":["c1 - 1","c2 - 1"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 1 case 2","location":null,"numPassingAsserts":0,"status":"passed","title":"case 2"},{"ancestorTitles":["c1 - 1","c2 - 1"],"duration":0,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 1 case 3","location":null,"numPassingAsserts":0,"status":"passed","title":"case 3"},{"ancestorTitles":["c1 - 1","c2 - 2"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 2 case 1","location":null,"numPassingAsserts":0,"status":"passed","title":"case 1"},{"ancestorTitles":["c1 - 1","c2 - 2","c3 - 3"],"duration":0,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 c2 - 2 c3 - 3 case 1","location":null,"numPassingAsserts":0,"status":"passed","title":"case 1"},{"ancestorTitles":["c1 - 1"],"duration":8,"failureDetails":[{"actual":"","error":{"matcherResult":{"actual":1,"expected":2,"name":"toBe","pass":false}},"expected":"","matcherName":"","message":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m","passed":false,"stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:47:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}],"failureMessages":["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:47:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"],"fullName":"c1 - 1 case Failed","location":null,"numPassingAsserts":0,"status":"failed","title":"case Failed"},{"ancestorTitles":["c1 - 1"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"c1 - 1 case 3","location":null,"numPassingAsserts":0,"status":"passed","title":"case 3"},{"ancestorTitles":[],"duration":1,"failureDetails":[{"actual":"","error":{"matcherResult":{"actual":1,"expected":2,"name":"toBe","pass":false}},"expected":"","matcherName":"","message":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m","passed":false,"stack":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:56:13)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"}],"failureMessages":["Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:56:13)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"],"fullName":"case Failed - 1","location":null,"numPassingAsserts":0,"status":"failed","title":"case Failed - 1"}],"failureMessage":"\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mc1 - 1 › case Failed\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m2\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 46 | \u001b[39m  test(\u001b[32m\"case Failed\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 47 | \u001b[39m    expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 48 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 49 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 50 | \u001b[39m  test(\u001b[32m\"case 3\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_tests.spec.js\u001b[39m\u001b[0m\u001b[2m:47:15)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mcase Failed - 1\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m2\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 54 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 55 | \u001b[39mtest(\u001b[32m\"case Failed - 1\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 56 | \u001b[39m  expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 57 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 58 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_tests.spec.js\u001b[39m\u001b[0m\u001b[2m:56:13)\u001b[22m\u001b[2m\u001b[22m\n"},{"leaks":false,"numFailingTests":0,"numPassingTests":2,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931236784,"runtime":5118,"slow":true,"start":1619931231666},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/ReporterClass/index.spec.js","testResults":[{"ancestorTitles":["get options "],"duration":10,"failureDetails":[],"failureMessages":[],"fullName":"get options  should return default option with no config","location":null,"numPassingAsserts":0,"status":"passed","title":"should return default option with no config"},{"ancestorTitles":["get options "],"duration":2,"failureDetails":[],"failureMessages":[],"fullName":"get options  env option should works for option","location":null,"numPassingAsserts":0,"status":"passed","title":"env option should works for option"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":6,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931239693,"runtime":2882,"slow":false,"start":1619931236811},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/src/untils/index.test.js","testResults":[{"ancestorTitles":["Test Func  ==> `getRecordClass` :"],"duration":2,"failureDetails":[],"failureMessages":[],"fullName":"Test Func  ==> `getRecordClass` : should return `row_fail` is state is failed","location":null,"numPassingAsserts":0,"status":"passed","title":"should return `row_fail` is state is failed"},{"ancestorTitles":["Test Func  ==> `getRecordClass` :"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"Test Func  ==> `getRecordClass` : should return `row_pending` is state is pending","location":null,"numPassingAsserts":0,"status":"passed","title":"should return `row_pending` is state is pending"},{"ancestorTitles":["Test Func  ==> `getRecordClass` :"],"duration":2,"failureDetails":[],"failureMessages":[],"fullName":"Test Func  ==> `getRecordClass` : should return `row_pass_even` is state not failed nor pending and index is even","location":null,"numPassingAsserts":0,"status":"passed","title":"should return `row_pass_even` is state not failed nor pending and index is even"},{"ancestorTitles":["Test Func  ==> `getRecordClass` :"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"Test Func  ==> `getRecordClass` : should return `row_pass_odd` is state not failed nor pending and index is odd","location":null,"numPassingAsserts":0,"status":"passed","title":"should return `row_pass_odd` is state not failed nor pending and index is odd"},{"ancestorTitles":["Test Func  ==> `getExistKeys` :"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"Test Func  ==> `getExistKeys` : empty object should return []","location":null,"numPassingAsserts":0,"status":"passed","title":"empty object should return []"},{"ancestorTitles":["Test Func  ==> `getExistKeys` :"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"Test Func  ==> `getExistKeys` : object should return keys which is not falsy value as an array","location":null,"numPassingAsserts":0,"status":"passed","title":"object should return keys which is not falsy value as an array"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":2,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931240095,"runtime":4074,"slow":false,"start":1619931236021},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testDashBoard.spec.js","testResults":[{"ancestorTitles":["test Dashboard item number"],"duration":311,"failureDetails":[],"failureMessages":[],"fullName":"test Dashboard item number if there have all type test there should has 7 MyCardItem items","location":null,"numPassingAsserts":0,"status":"passed","title":"if there have all type test there should has 7 MyCardItem items"},{"ancestorTitles":["test Dashboard item number"],"duration":94,"failureDetails":[],"failureMessages":[],"fullName":"test Dashboard item number if there not have numRuntimeErrorTestSuites test there should has 6 MyCardItem items","location":null,"numPassingAsserts":0,"status":"passed","title":"if there not have numRuntimeErrorTestSuites test there should has 6 MyCardItem items"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":2,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931240313,"runtime":4324,"slow":false,"start":1619931235989},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testErrorButton.spec.js","testResults":[{"ancestorTitles":["test error button component"],"duration":38,"failureDetails":[],"failureMessages":[],"fullName":"test error button component button should render when there has failureMessage","location":null,"numPassingAsserts":0,"status":"passed","title":"button should render when there has failureMessage"},{"ancestorTitles":["test error button component"],"duration":5,"failureDetails":[],"failureMessages":[],"fullName":"test error button component button should not render when there not has failureMessage","location":null,"numPassingAsserts":0,"status":"passed","title":"button should not render when there not has failureMessage"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":2,"numPendingTests":1,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931240997,"runtime":654,"slow":false,"start":1619931240343},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_pending.spec.js","testResults":[{"ancestorTitles":["just examples"],"duration":10,"failureDetails":[],"failureMessages":[],"fullName":"just examples case 1","location":null,"numPassingAsserts":0,"status":"passed","title":"case 1"},{"ancestorTitles":["just examples"],"duration":0,"failureDetails":[],"failureMessages":[],"fullName":"just examples case Pending","location":null,"numPassingAsserts":0,"status":"pending","title":"case Pending"},{"ancestorTitles":["just examples"],"duration":0,"failureDetails":[],"failureMessages":[],"fullName":"just examples case 3","location":null,"numPassingAsserts":0,"status":"passed","title":"case 3"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":4,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931241621,"runtime":5722,"slow":true,"start":1619931235899},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testInformation.spec.js","testResults":[{"ancestorTitles":["test Information component"],"duration":41,"failureDetails":[],"failureMessages":[],"fullName":"test Information component there should have a main information area to display main information","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a main information area to display main information"},{"ancestorTitles":["test Information component"],"duration":89,"failureDetails":[],"failureMessages":[],"fullName":"test Information component there should have a main BarChart area to display bar chart","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a main BarChart area to display bar chart"},{"ancestorTitles":["test Information component"],"duration":20,"failureDetails":[],"failureMessages":[],"fullName":"test Information component there should have a main PieChart area to display pie chart","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a main PieChart area to display pie chart"},{"ancestorTitles":["test Information component"],"duration":63,"failureDetails":[],"failureMessages":[],"fullName":"test Information component main information area should contain run information","location":null,"numPassingAsserts":0,"status":"passed","title":"main information area should contain run information"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":2,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931241635,"runtime":623,"slow":false,"start":1619931241012},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testErrorInfoItem.spec.js","testResults":[{"ancestorTitles":["test Dashboard item number"],"duration":127,"failureDetails":[],"failureMessages":[],"fullName":"test Dashboard item number if no data will return null","location":null,"numPassingAsserts":0,"status":"passed","title":"if no data will return null"},{"ancestorTitles":["test Dashboard item number"],"duration":22,"failureDetails":[],"failureMessages":[],"fullName":"test Dashboard item number if has data will return pre","location":null,"numPassingAsserts":0,"status":"passed","title":"if has data will return pre"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":6,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931242333,"runtime":10640,"slow":true,"start":1619931231693},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/App/testHomePageComponents.spec.js","testResults":[{"ancestorTitles":["test home page","via app","test component info"],"duration":47,"failureDetails":[],"failureMessages":[],"fullName":"test home page via app test component info there should have a BackTop in homePage","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a BackTop in homePage"},{"ancestorTitles":["test home page","via app","test component info"],"duration":12,"failureDetails":[],"failureMessages":[],"fullName":"test home page via app test component info there should have a TableItem info in homePage component","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a TableItem info in homePage component"},{"ancestorTitles":["test home page","via app","test component info"],"duration":11,"failureDetails":[],"failureMessages":[],"fullName":"test home page via app test component info there should have a DashBoard info in homePage component","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a DashBoard info in homePage component"},{"ancestorTitles":["test home page","via app","test component info"],"duration":64,"failureDetails":[],"failureMessages":[],"fullName":"test home page via app test component info there should have a Information info in homePage component","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a Information info in homePage component"},{"ancestorTitles":["test home page","via app","test section titles"],"duration":26,"failureDetails":[],"failureMessages":[],"fullName":"test home page via app test section titles there should have three titles","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have three titles"},{"ancestorTitles":["test home page","test coverage link"],"duration":11,"failureDetails":[],"failureMessages":[],"fullName":"test home page test coverage link there should a link if coverage has been activated","location":null,"numPassingAsserts":0,"status":"passed","title":"there should a link if coverage has been activated"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":3,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931242528,"runtime":875,"slow":false,"start":1619931241653},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testFooterInfo.spec.js","testResults":[{"ancestorTitles":["test footer reporter info"],"duration":12,"failureDetails":[],"failureMessages":[],"fullName":"test footer reporter info there should be a footer box div","location":null,"numPassingAsserts":0,"status":"passed","title":"there should be a footer box div"},{"ancestorTitles":["test footer reporter info"],"duration":16,"failureDetails":[],"failureMessages":[],"fullName":"test footer reporter info there should have two link in the box","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have two link in the box"},{"ancestorTitles":["test footer reporter info"],"duration":2,"failureDetails":[],"failureMessages":[],"fullName":"test footer reporter info there should have bottom line box","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have bottom line box"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":6,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931242636,"runtime":986,"slow":false,"start":1619931241650},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples.spec.js","testResults":[{"ancestorTitles":["group 1","sub group 1"],"duration":36,"failureDetails":[],"failureMessages":[],"fullName":"group 1 sub group 1 test 1","location":null,"numPassingAsserts":0,"status":"passed","title":"test 1"},{"ancestorTitles":["group 1","sub group 1"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"group 1 sub group 1 test 2","location":null,"numPassingAsserts":0,"status":"passed","title":"test 2"},{"ancestorTitles":["group 1","sub group 1"],"duration":0,"failureDetails":[],"failureMessages":[],"fullName":"group 1 sub group 1 test 3","location":null,"numPassingAsserts":0,"status":"passed","title":"test 3"},{"ancestorTitles":["group 1","sub group 2"],"duration":18,"failureDetails":[],"failureMessages":[],"fullName":"group 1 sub group 2 test 4","location":null,"numPassingAsserts":0,"status":"passed","title":"test 4"},{"ancestorTitles":["group 1","sub group 2"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"group 1 sub group 2 test 5","location":null,"numPassingAsserts":0,"status":"passed","title":"test 5"},{"ancestorTitles":["group 1","sub group 2"],"duration":13,"failureDetails":[],"failureMessages":[],"fullName":"group 1 sub group 2 test 6","location":null,"numPassingAsserts":0,"status":"passed","title":"test 6"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":2,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931242889,"runtime":6915,"slow":true,"start":1619931235974},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/App/testAppComponents.spec.js","testResults":[{"ancestorTitles":["test app components info"],"duration":47,"failureDetails":[],"failureMessages":[],"fullName":"test app components info there should have a home page in app","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a home page in app"},{"ancestorTitles":["test app components info"],"duration":27,"failureDetails":[],"failureMessages":[],"fullName":"test app components info there should have a footer info component in app","location":null,"numPassingAsserts":0,"status":"passed","title":"there should have a footer info component in app"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":5,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931242984,"runtime":11289,"slow":true,"start":1619931231695},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testDetailTable.spec.js","testResults":[{"ancestorTitles":["test DetailTable "],"duration":674,"failureDetails":[],"failureMessages":[],"fullName":"test DetailTable  should return antd table component","location":null,"numPassingAsserts":0,"status":"passed","title":"should return antd table component"},{"ancestorTitles":["test DetailTable "],"duration":110,"failureDetails":[],"failureMessages":[],"fullName":"test DetailTable  if there had failed item, should had a error button item","location":null,"numPassingAsserts":0,"status":"passed","title":"if there had failed item, should had a error button item"},{"ancestorTitles":[],"duration":43,"failureDetails":[],"failureMessages":[],"fullName":"Top level test in a file","location":null,"numPassingAsserts":0,"status":"passed","title":"Top level test in a file"},{"ancestorTitles":["Nested describes"],"duration":25,"failureDetails":[],"failureMessages":[],"fullName":"Nested describes Top level test in a describe should be prepended by describe name","location":null,"numPassingAsserts":0,"status":"passed","title":"Top level test in a describe should be prepended by describe name"},{"ancestorTitles":["Nested describes","Secondary describe"],"duration":19,"failureDetails":[],"failureMessages":[],"fullName":"Nested describes Secondary describe Secondary test should be prepended by describe name","location":null,"numPassingAsserts":0,"status":"passed","title":"Secondary test should be prepended by describe name"}],"failureMessage":null},{"failureMessage":"  \u001b[1m● \u001b[22mTest suite failed to run\n\n    TypeError: describe.ok is not a function\n\n    \u001b[0m \u001b[90m 1 | \u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39mdescribe\u001b[33m.\u001b[39mok()\u001b[0m\n    \u001b[0m \u001b[90m   | \u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 | \u001b[39mdescribe(\u001b[32m'just examples'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 4 | \u001b[39m  test(\u001b[32m'case 1'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 5 | \u001b[39m    expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/Examples/examples_runtime_error.spec.js\u001b[39m\u001b[0m\u001b[2m:2:10)\u001b[22m\n","leaks":false,"numFailingTests":0,"numPassingTests":0,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":0,"runtime":0,"slow":false,"start":0},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"uncheckedKeys":[],"unmatched":0,"updated":0},"testExecError":"describe.ok is not a function","testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_runtime_error.spec.js","testResults":[]},{"failureMessage":"  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module 'puppeteer' from 'test/Examples/examples_test.spec.js'\n\n    \u001b[0m \u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m { addAttach } \u001b[33m=\u001b[39m require(\u001b[32m\"../../helper\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m\u001b[36mconst\u001b[39m puppeteer \u001b[33m=\u001b[39m require(\u001b[32m\"puppeteer\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m   | \u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 | \u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 4 | \u001b[39mdescribe(\u001b[32m\"just examples\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 5 | \u001b[39m  test(\u001b[32m\"case 1\"\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m=>\u001b[39m {\u001b[0m\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:307:11)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/Examples/examples_test.spec.js\u001b[39m\u001b[0m\u001b[2m:2:19)\u001b[22m\n","leaks":false,"numFailingTests":0,"numPassingTests":0,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":0,"runtime":0,"slow":false,"start":0},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"uncheckedKeys":[],"unmatched":0,"updated":0},"testExecError":"Cannot find module 'puppeteer' from 'test/Examples/examples_test.spec.js'","testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_test.spec.js","testResults":[]},{"leaks":false,"numFailingTests":0,"numPassingTests":1,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931243279,"runtime":3131,"slow":false,"start":1619931240148},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testTable.spec.js","testResults":[{"ancestorTitles":["test table "],"duration":100,"failureDetails":[],"failureMessages":[],"fullName":"test table  should return antd table component","location":null,"numPassingAsserts":0,"status":"passed","title":"should return antd table component"}],"failureMessage":null},{"leaks":false,"numFailingTests":0,"numPassingTests":1,"numPendingTests":0,"numTodoTests":0,"openHandles":[],"perfStats":{"end":1619931244163,"runtime":4446,"slow":false,"start":1619931239717},"skipped":false,"snapshot":{"added":0,"fileDeleted":false,"matched":0,"unchecked":0,"unmatched":0,"updated":0,"uncheckedKeys":[]},"testFilePath":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/App/testSingleReportApp.spec.js","testResults":[{"ancestorTitles":["test single report app"],"duration":1,"failureDetails":[],"failureMessages":[],"fullName":"test single report app there should be default page title","location":null,"numPassingAsserts":0,"status":"passed","title":"there should be default page title"}],"failureMessage":null}],"wasInterrupted":false,"config":{"bail":0,"changedFilesWithAncestor":false,"collectCoverage":false,"collectCoverageFrom":["src/*.{js,jsx}"],"coverageDirectory":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/coverage","coverageProvider":"babel","coverageReporters":["json","text","lcov","clover"],"detectLeaks":false,"detectOpenHandles":false,"errorOnDeprecated":false,"expand":false,"findRelatedTests":false,"forceExit":false,"globalSetup":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/globalSetup.js","json":false,"lastCommit":false,"listTests":false,"logHeapUsage":false,"maxConcurrency":5,"maxWorkers":7,"noStackTrace":false,"nonFlagArgs":[],"notify":false,"notifyMode":"failure-change","onlyChanged":false,"onlyFailures":false,"passWithNoTests":false,"projects":[],"reporters":[["default",{}],["/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/index.js",{"publicPath":"./html-report","filename":"report.html","enableMergeData":true,"dataMergeLevel":2}]],"rootDir":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report","runTestsByPath":false,"skipFilter":false,"testFailureExitCode":1,"testPathPattern":"","testSequencer":"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/@jest/test-sequencer/build/index.js","updateSnapshot":"new","useStderr":false,"verbose":true,"watch":false,"watchAll":false,"watchman":true},"endTime":1619931244250,"_reporterOptions":{"publicPath":"./html-report","filename":"report.html","expand":false,"pageTitle":"","hideIcon":false,"testCommand":"npx jest","openReport":false,"multipleReportsUnitePath":"","failureMessageOnly":false,"enableMergeData":true,"dataMergeLevel":2},"attachInfos":{"/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js":{"c1 - 1 c2 - 1 case 1":[{"description":"test1"}],"c1 - 1 c2 - 1 case 2":[{"description":"test2"}]}}}
+{
+  "numFailedTestSuites": 6,
+  "numFailedTests": 5,
+  "numPassedTestSuites": 14,
+  "numPassedTests": 55,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 1,
+  "numRuntimeErrorTestSuites": 2,
+  "numTodoTests": 1,
+  "numTotalTestSuites": 20,
+  "numTotalTests": 62,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1619931229930,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 1,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931235825,
+        "runtime": 4235,
+        "slow": false,
+        "start": 1619931231590
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 8,
+          "failureDetails": [
+            {
+              "actual": "",
+              "error": {},
+              "expected": "",
+              "matcherName": "",
+              "message": "Error: Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.",
+              "passed": false,
+              "stack": "Error: Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:581:19)\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:84:31)\n    at test (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n    at Suite.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:4:3)\n    at addSpecsToSuite (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n    at Env.describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n    at describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:3:1)\n    at Runtime._execModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:1217:24)\n    at Runtime._loadModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:828:12)\n    at Runtime.requireModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:679:10)\n    at jasmine2 (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/index.js:230:13)\n    at runTestInternal (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:372:22)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at runTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:464:34)\n    at Object.worker (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/testWorker.js:133:12)"
+            }
+          ],
+          "failureMessages": [
+            "Error: Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:581:19)\n    at Env.it (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:84:31)\n    at test (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)\n    at Suite.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:4:3)\n    at addSpecsToSuite (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)\n    at Env.describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)\n    at describe (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_todo.spec.js:3:1)\n    at Runtime._execModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:1217:24)\n    at Runtime._loadModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:828:12)\n    at Runtime.requireModule (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runtime/build/index.js:679:10)\n    at jasmine2 (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/index.js:230:13)\n    at runTestInternal (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:372:22)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at runTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/runTest.js:464:34)\n    at Object.worker (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-runner/build/testWorker.js:133:12)"
+          ],
+          "fullName": "just examples encountered a declaration exception",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "encountered a declaration exception"
+        },
+        {
+          "ancestorTitles": [
+            "just examples2"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "just examples2 test for test todo",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "todo",
+          "title": "test for test todo"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mjust examples › encountered a declaration exception\u001b[39m\u001b[22m\n\n    Missing second argument. It must be a callback function. Perhaps you want to use `test.todo` for a test placeholder.\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 2 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 | \u001b[39mdescribe(\u001b[32m\"just examples\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 4 | \u001b[39m  test(\u001b[32m\"test for test todo\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m  \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 5 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 6 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 | \u001b[39mdescribe(\u001b[32m\"just examples2\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Env.it (\u001b[22m\u001b[2mnode_modules/jest-jasmine2/build/jasmine/Env.js\u001b[2m:581:19)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Suite.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_todo.spec.js\u001b[39m\u001b[0m\u001b[2m:4:3)\u001b[22m\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_todo.spec.js\u001b[39m\u001b[0m\u001b[2m:3:1)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931235950,
+        "runtime": 4298,
+        "slow": false,
+        "start": 1619931231652
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "just examples case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 1"
+        },
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 18,
+          "failureDetails": [
+            {
+              "actual": "",
+              "error": {
+                "matcherResult": {
+                  "actual": 1,
+                  "expected": 2,
+                  "name": "toBe",
+                  "pass": false
+                }
+              },
+              "expected": "",
+              "matcherName": "",
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+              "passed": false,
+              "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed.spec.js:10:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed.spec.js:10:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "just examples case Failed",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "case Failed"
+        },
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "just examples case 3",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 3"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mjust examples › case Failed\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m2\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  8 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  9 | \u001b[39m  test(\u001b[32m'case Failed'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 10 | \u001b[39m    expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 11 | \u001b[39m  })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 12 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 13 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_failed.spec.js\u001b[39m\u001b[0m\u001b[2m:10:15)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931235965,
+        "runtime": 4365,
+        "slow": false,
+        "start": 1619931231600
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed_with_html.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 52,
+          "failureDetails": [
+            {
+              "actual": "",
+              "error": {
+                "matcherResult": {
+                  "actual": "<button>click</button>",
+                  "expected": 1,
+                  "name": "toBe",
+                  "pass": false
+                }
+              },
+              "expected": "",
+              "matcherName": "",
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m\"<button>click</button>\"\u001b[39m",
+              "passed": false,
+              "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m\"<button>click</button>\"\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed_with_html.spec.js:6:38)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m1\u001b[39m\nReceived: \u001b[31m\"<button>click</button>\"\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_failed_with_html.spec.js:6:38)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "just examples case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "case 1"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mjust examples › case 1\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m1\u001b[39m\n    Received: \u001b[31m\"<button>click</button>\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 | \u001b[39mdescribe(\u001b[32m'just examples'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 5 | \u001b[39m  test(\u001b[32m'case 1'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 6 | \u001b[39m    expect(\u001b[32m'<button>click</button>'\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 7 | \u001b[39m  })\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 8 | \u001b[39m})\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 9 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_failed_with_html.spec.js\u001b[39m\u001b[0m\u001b[2m:6:38)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 9,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931235981,
+        "runtime": 4392,
+        "slow": false,
+        "start": 1619931231589
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 1"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 1 case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 1"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 1"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 1 case 2",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 2"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 1"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 1 case 3",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 3"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 1"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 1 case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 1"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 1"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 1 case 2",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 2"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 1"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 1 case 3",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 3"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 2"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 2 case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 1"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1",
+            "c2 - 2",
+            "c3 - 3"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 c2 - 2 c3 - 3 case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 1"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1"
+          ],
+          "duration": 8,
+          "failureDetails": [
+            {
+              "actual": "",
+              "error": {
+                "matcherResult": {
+                  "actual": 1,
+                  "expected": 2,
+                  "name": "toBe",
+                  "pass": false
+                }
+              },
+              "expected": "",
+              "matcherName": "",
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+              "passed": false,
+              "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:47:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:47:15)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "c1 - 1 case Failed",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "case Failed"
+        },
+        {
+          "ancestorTitles": [
+            "c1 - 1"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "c1 - 1 case 3",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 3"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 1,
+          "failureDetails": [
+            {
+              "actual": "",
+              "error": {
+                "matcherResult": {
+                  "actual": 1,
+                  "expected": 2,
+                  "name": "toBe",
+                  "pass": false
+                }
+              },
+              "expected": "",
+              "matcherName": "",
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
+              "passed": false,
+              "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:56:13)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at Object.<anonymous> (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js:56:13)\n    at Object.asyncJestTest (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (<anonymous>)\n    at mapper (/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "case Failed - 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "case Failed - 1"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mc1 - 1 › case Failed\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m2\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 45 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 46 | \u001b[39m  test(\u001b[32m\"case Failed\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 47 | \u001b[39m    expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 48 | \u001b[39m  })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 49 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 50 | \u001b[39m  test(\u001b[32m\"case 3\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_tests.spec.js\u001b[39m\u001b[0m\u001b[2m:47:15)\u001b[22m\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mcase Failed - 1\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32m2\u001b[39m\n    Received: \u001b[31m1\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 54 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 55 | \u001b[39mtest(\u001b[32m\"case Failed - 1\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 56 | \u001b[39m  expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m            \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 57 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 58 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36mtest/Examples/examples_tests.spec.js\u001b[39m\u001b[0m\u001b[2m:56:13)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931236784,
+        "runtime": 5118,
+        "slow": true,
+        "start": 1619931231666
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/ReporterClass/index.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "get options "
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "get options  should return default option with no config",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return default option with no config"
+        },
+        {
+          "ancestorTitles": [
+            "get options "
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "get options  env option should works for option",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "env option should works for option"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931239693,
+        "runtime": 2882,
+        "slow": false,
+        "start": 1619931236811
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/src/untils/index.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Test Func  ==> `getRecordClass` :"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test Func  ==> `getRecordClass` : should return `row_fail` is state is failed",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return `row_fail` is state is failed"
+        },
+        {
+          "ancestorTitles": [
+            "Test Func  ==> `getRecordClass` :"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test Func  ==> `getRecordClass` : should return `row_pending` is state is pending",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return `row_pending` is state is pending"
+        },
+        {
+          "ancestorTitles": [
+            "Test Func  ==> `getRecordClass` :"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test Func  ==> `getRecordClass` : should return `row_pass_even` is state not failed nor pending and index is even",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return `row_pass_even` is state not failed nor pending and index is even"
+        },
+        {
+          "ancestorTitles": [
+            "Test Func  ==> `getRecordClass` :"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test Func  ==> `getRecordClass` : should return `row_pass_odd` is state not failed nor pending and index is odd",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return `row_pass_odd` is state not failed nor pending and index is odd"
+        },
+        {
+          "ancestorTitles": [
+            "Test Func  ==> `getExistKeys` :"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test Func  ==> `getExistKeys` : empty object should return []",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "empty object should return []"
+        },
+        {
+          "ancestorTitles": [
+            "Test Func  ==> `getExistKeys` :"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Test Func  ==> `getExistKeys` : object should return keys which is not falsy value as an array",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "object should return keys which is not falsy value as an array"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931240095,
+        "runtime": 4074,
+        "slow": false,
+        "start": 1619931236021
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testDashBoard.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test Dashboard item number"
+          ],
+          "duration": 311,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Dashboard item number if there have all type test there should has 7 MyCardItem items",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "if there have all type test there should has 7 MyCardItem items"
+        },
+        {
+          "ancestorTitles": [
+            "test Dashboard item number"
+          ],
+          "duration": 94,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Dashboard item number if there not have numRuntimeErrorTestSuites test there should has 6 MyCardItem items",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "if there not have numRuntimeErrorTestSuites test there should has 6 MyCardItem items"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931240313,
+        "runtime": 4324,
+        "slow": false,
+        "start": 1619931235989
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testErrorButton.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test error button component"
+          ],
+          "duration": 38,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test error button component button should render when there has failureMessage",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "button should render when there has failureMessage"
+        },
+        {
+          "ancestorTitles": [
+            "test error button component"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test error button component button should not render when there not has failureMessage",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "button should not render when there not has failureMessage"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 1,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931240997,
+        "runtime": 654,
+        "slow": false,
+        "start": 1619931240343
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_pending.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "just examples case 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 1"
+        },
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "just examples case Pending",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "pending",
+          "title": "case Pending"
+        },
+        {
+          "ancestorTitles": [
+            "just examples"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "just examples case 3",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "case 3"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931241621,
+        "runtime": 5722,
+        "slow": true,
+        "start": 1619931235899
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testInformation.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test Information component"
+          ],
+          "duration": 41,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Information component there should have a main information area to display main information",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a main information area to display main information"
+        },
+        {
+          "ancestorTitles": [
+            "test Information component"
+          ],
+          "duration": 89,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Information component there should have a main BarChart area to display bar chart",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a main BarChart area to display bar chart"
+        },
+        {
+          "ancestorTitles": [
+            "test Information component"
+          ],
+          "duration": 20,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Information component there should have a main PieChart area to display pie chart",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a main PieChart area to display pie chart"
+        },
+        {
+          "ancestorTitles": [
+            "test Information component"
+          ],
+          "duration": 63,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Information component main information area should contain run information",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "main information area should contain run information"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931241635,
+        "runtime": 623,
+        "slow": false,
+        "start": 1619931241012
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testErrorInfoItem.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test Dashboard item number"
+          ],
+          "duration": 127,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Dashboard item number if no data will return null",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "if no data will return null"
+        },
+        {
+          "ancestorTitles": [
+            "test Dashboard item number"
+          ],
+          "duration": 22,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test Dashboard item number if has data will return pre",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "if has data will return pre"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931242333,
+        "runtime": 10640,
+        "slow": true,
+        "start": 1619931231693
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/App/testHomePageComponents.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test home page",
+            "via app",
+            "test component info"
+          ],
+          "duration": 47,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test home page via app test component info there should have a BackTop in homePage",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a BackTop in homePage"
+        },
+        {
+          "ancestorTitles": [
+            "test home page",
+            "via app",
+            "test component info"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test home page via app test component info there should have a TableItem info in homePage component",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a TableItem info in homePage component"
+        },
+        {
+          "ancestorTitles": [
+            "test home page",
+            "via app",
+            "test component info"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test home page via app test component info there should have a DashBoard info in homePage component",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a DashBoard info in homePage component"
+        },
+        {
+          "ancestorTitles": [
+            "test home page",
+            "via app",
+            "test component info"
+          ],
+          "duration": 64,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test home page via app test component info there should have a Information info in homePage component",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a Information info in homePage component"
+        },
+        {
+          "ancestorTitles": [
+            "test home page",
+            "via app",
+            "test section titles"
+          ],
+          "duration": 26,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test home page via app test section titles there should have three titles",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have three titles"
+        },
+        {
+          "ancestorTitles": [
+            "test home page",
+            "test coverage link"
+          ],
+          "duration": 11,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test home page test coverage link there should a link if coverage has been activated",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should a link if coverage has been activated"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931242528,
+        "runtime": 875,
+        "slow": false,
+        "start": 1619931241653
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testFooterInfo.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test footer reporter info"
+          ],
+          "duration": 12,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test footer reporter info there should be a footer box div",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should be a footer box div"
+        },
+        {
+          "ancestorTitles": [
+            "test footer reporter info"
+          ],
+          "duration": 16,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test footer reporter info there should have two link in the box",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have two link in the box"
+        },
+        {
+          "ancestorTitles": [
+            "test footer reporter info"
+          ],
+          "duration": 2,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test footer reporter info there should have bottom line box",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have bottom line box"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 6,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931242636,
+        "runtime": 986,
+        "slow": false,
+        "start": 1619931241650
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "group 1",
+            "sub group 1"
+          ],
+          "duration": 36,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "group 1 sub group 1 test 1",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "test 1"
+        },
+        {
+          "ancestorTitles": [
+            "group 1",
+            "sub group 1"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "group 1 sub group 1 test 2",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "test 2"
+        },
+        {
+          "ancestorTitles": [
+            "group 1",
+            "sub group 1"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "group 1 sub group 1 test 3",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "test 3"
+        },
+        {
+          "ancestorTitles": [
+            "group 1",
+            "sub group 2"
+          ],
+          "duration": 18,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "group 1 sub group 2 test 4",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "test 4"
+        },
+        {
+          "ancestorTitles": [
+            "group 1",
+            "sub group 2"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "group 1 sub group 2 test 5",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "test 5"
+        },
+        {
+          "ancestorTitles": [
+            "group 1",
+            "sub group 2"
+          ],
+          "duration": 13,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "group 1 sub group 2 test 6",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "test 6"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931242889,
+        "runtime": 6915,
+        "slow": true,
+        "start": 1619931235974
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/App/testAppComponents.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test app components info"
+          ],
+          "duration": 47,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test app components info there should have a home page in app",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a home page in app"
+        },
+        {
+          "ancestorTitles": [
+            "test app components info"
+          ],
+          "duration": 27,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test app components info there should have a footer info component in app",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should have a footer info component in app"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931242984,
+        "runtime": 11289,
+        "slow": true,
+        "start": 1619931231695
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testDetailTable.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test DetailTable "
+          ],
+          "duration": 674,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test DetailTable  should return antd table component",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return antd table component"
+        },
+        {
+          "ancestorTitles": [
+            "test DetailTable "
+          ],
+          "duration": 110,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test DetailTable  if there had failed item, should had a error button item",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "if there had failed item, should had a error button item"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 43,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Top level test in a file",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Top level test in a file"
+        },
+        {
+          "ancestorTitles": [
+            "Nested describes"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Nested describes Top level test in a describe should be prepended by describe name",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Top level test in a describe should be prepended by describe name"
+        },
+        {
+          "ancestorTitles": [
+            "Nested describes",
+            "Secondary describe"
+          ],
+          "duration": 19,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Nested describes Secondary describe Secondary test should be prepended by describe name",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Secondary test should be prepended by describe name"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    TypeError: describe.ok is not a function\n\n    \u001b[0m \u001b[90m 1 | \u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39mdescribe\u001b[33m.\u001b[39mok()\u001b[0m\n    \u001b[0m \u001b[90m   | \u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 | \u001b[39mdescribe(\u001b[32m'just examples'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 4 | \u001b[39m  test(\u001b[32m'case 1'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 5 | \u001b[39m    expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/Examples/examples_runtime_error.spec.js\u001b[39m\u001b[0m\u001b[2m:2:10)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": "describe.ok is not a function",
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_runtime_error.spec.js",
+      "testResults": []
+    },
+    {
+      "failureMessage": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Cannot find module 'puppeteer' from 'test/Examples/examples_test.spec.js'\n\n    \u001b[0m \u001b[90m 1 | \u001b[39m\u001b[36mconst\u001b[39m { addAttach } \u001b[33m=\u001b[39m require(\u001b[32m\"../../helper\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 | \u001b[39m\u001b[36mconst\u001b[39m puppeteer \u001b[33m=\u001b[39m require(\u001b[32m\"puppeteer\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m   | \u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 3 | \u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 4 | \u001b[39mdescribe(\u001b[32m\"just examples\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n    \u001b[0m \u001b[90m 5 | \u001b[39m  test(\u001b[32m\"case 1\"\u001b[39m\u001b[33m,\u001b[39m async () \u001b[33m=>\u001b[39m {\u001b[0m\n\n      \u001b[2mat Resolver.resolveModule (\u001b[22mnode_modules/jest-resolve/build/index.js\u001b[2m:307:11)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mtest/Examples/examples_test.spec.js\u001b[39m\u001b[0m\u001b[2m:2:19)\u001b[22m\n",
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 0,
+        "runtime": 0,
+        "slow": false,
+        "start": 0
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testExecError": "Cannot find module 'puppeteer' from 'test/Examples/examples_test.spec.js'",
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_test.spec.js",
+      "testResults": []
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931243279,
+        "runtime": 3131,
+        "slow": false,
+        "start": 1619931240148
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/testTable.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test table "
+          ],
+          "duration": 100,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test table  should return antd table component",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should return antd table component"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1619931244163,
+        "runtime": 4446,
+        "slow": false,
+        "start": 1619931239717
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/components/App/testSingleReportApp.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "test single report app"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "test single report app there should be default page title",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "there should be default page title"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false,
+  "config": {
+    "bail": 0,
+    "changedFilesWithAncestor": false,
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "src/*.{js,jsx}"
+    ],
+    "coverageDirectory": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/coverage",
+    "coverageProvider": "babel",
+    "coverageReporters": [
+      "json",
+      "text",
+      "lcov",
+      "clover"
+    ],
+    "detectLeaks": false,
+    "detectOpenHandles": false,
+    "errorOnDeprecated": false,
+    "expand": false,
+    "findRelatedTests": false,
+    "forceExit": false,
+    "globalSetup": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/globalSetup.js",
+    "json": false,
+    "lastCommit": false,
+    "listTests": false,
+    "logHeapUsage": false,
+    "maxConcurrency": 5,
+    "maxWorkers": 7,
+    "noStackTrace": false,
+    "nonFlagArgs": [],
+    "notify": false,
+    "notifyMode": "failure-change",
+    "onlyChanged": false,
+    "onlyFailures": false,
+    "passWithNoTests": false,
+    "projects": [],
+    "reporters": [
+      [
+        "default",
+        {}
+      ],
+      [
+        "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/index.js",
+        {
+          "publicPath": "./html-report",
+          "filename": "report.html",
+          "enableMergeData": true,
+          "dataMergeLevel": 2
+        }
+      ]
+    ],
+    "rootDir": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report",
+    "runTestsByPath": false,
+    "skipFilter": false,
+    "testFailureExitCode": 1,
+    "testPathPattern": "",
+    "testSequencer": "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/node_modules/@jest/test-sequencer/build/index.js",
+    "updateSnapshot": "new",
+    "useStderr": false,
+    "verbose": true,
+    "watch": false,
+    "watchAll": false,
+    "watchman": true
+  },
+  "endTime": 1619931244250,
+  "_reporterOptions": {
+    "publicPath": "./html-report",
+    "filename": "report.html",
+    "expand": false,
+    "pageTitle": "",
+    "hideIcon": false,
+    "testCommand": "npx jest",
+    "openReport": false,
+    "multipleReportsUnitePath": "",
+    "failureMessageOnly": false,
+    "enableMergeData": true,
+    "dataMergeLevel": 2
+  },
+  "attachInfos": {
+    "/Users/harry.hou/Desktop/hazyzh/repoter/jest_report/test/Examples/examples_tests.spec.js": {
+      "c1 - 1 c2 - 1 case 1": [
+        {
+          "description": "test1"
+        }
+      ],
+      "c1 - 1 c2 - 1 case 2": [
+        {
+          "description": "test2"
+        }
+      ]
+    }
+  }
+}

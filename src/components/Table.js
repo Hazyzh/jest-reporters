@@ -57,8 +57,12 @@ const getColumns = (rootDir, execCommand, attachInfos) => [
     title: "File",
     dataIndex: "testFilePath",
     key: "name",
-    render: (text) => {
-      const relativePath = text.replace(new RegExp("^" + rootDir), "");
+    render: (text, results) => {
+      let caseTitle = `Test title not found. Path: ${text}`
+      if(results.testResults.length && results.testResults[0].ancestorTitles.length) {
+          caseTitle = results.testResults[0].ancestorTitles[0] || 'Title error'
+      }
+      const relativePath = text
       return (
         <span>
           <span className="copy_icon" title="click to copy path to clipborad">
@@ -74,7 +78,7 @@ const getColumns = (rootDir, execCommand, attachInfos) => [
           </span>
           <span className="path_text" id={text}>
             {" "}
-            {relativePath}
+            {caseTitle}
           </span>
         </span>
       );
@@ -167,7 +171,7 @@ const TableItem = ({
         onExpand={(state, { testFilePath }) =>
           toggleExpand({ key: testFilePath, state })
         }
-        columns={getColumns(rootDir, _reporterOptions.testCommand, attachInfos)}
+        columns={getColumns(rootDir, _reporterOptions.testCommand, attachInfos, testResults)}
         dataSource={testResults}
       />
     )}

@@ -41,7 +41,7 @@ class App extends Component {
       <a
         target="_blank"
         className="icon"
-        href="https://github.com/Hazyzh/jest-html-reporters"
+        href="https://github.com/cookieps/jest-html-reporters-custom"
       >
         <GithubFilled />
       </a>

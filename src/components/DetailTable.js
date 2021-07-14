@@ -125,7 +125,7 @@ export const DetailTable = ({ data }) => (
 );
 
 const RootTable = ({ data = [], defaultMerge, defaultMergeLevel }) => {
-  const numerousTests = data.length > 8;
+  const numerousTests = data.length > 0;
   const [isMergence, setIsMergence] = useState(numerousTests && defaultMerge);
   const [mergeLevel, setMergeLevel] = useState(defaultMergeLevel);
   return (

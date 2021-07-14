@@ -157,7 +157,8 @@ const LabelInfo = ({ title, icon, context }) => (
 );
 
 const Information = ({
-  config: { rootDir, maxWorkers },
+  config: { rootDir, maxWorkers},
+  _reporterOptions: {enableGraph},
   startTime,
   endTime,
   testResults,
@@ -165,9 +166,11 @@ const Information = ({
   <Consumer>
     {({ toggleExpand }) => (
       <Row>
+        {enableGraph ? 
         <Col span={18}>
           <SimpleBarChart data={testResults} rootDir={rootDir} />
-        </Col>
+        </Col> : null}
+        { enableGraph ? 
         <Col span={6}>
           <p className="chart_title">
             <PieChartFilled style={{ marginRight: "5px" }} />
@@ -199,28 +202,24 @@ const Information = ({
               />
             </PieChart>
           </ResponsiveContainer>
-        </Col>
+        </Col> : null}
         <Col span={24} className="main_information">
           <Card>
             <Row span={24}>
-              <Col span={16}>
+              <Col span={8}>
                 <LabelInfo
                   className="StartTime"
                   title="StartTime"
                   context={formatDate(startTime)}
                   icon={<BoxPlotFilled />}
                 />
+              </Col>
+              <Col span={8}>
                 <LabelInfo
                   className="Time"
                   title="Time"
                   context={getFormatTime(startTime, endTime)}
                   icon={<ClockCircleFilled />}
-                />
-                <LabelInfo
-                  className="RootDir"
-                  title="RootDir"
-                  context={rootDir}
-                  icon={<FolderFilled />}
                 />
               </Col>
               <Col span={8}>

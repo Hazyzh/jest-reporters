@@ -1,8 +1,8 @@
 {
-  "name": "jest-html-reporters",
+  "name": "jest-html-reporters-custom",
   "license": "MIT",
-  "version": "2.1.6",
-  "description": "Jest test results processor for generating a summary in HTML",
+  "version": "1.0.11",
+  "description": "Jest test results processor for generating a summary in HTML with custom logic",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config=webpack.development.config.js",
@@ -17,15 +17,15 @@
     "report",
     "plugin"
   ],
-  "author": "Hazyzh",
+  "author": "cookieps",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hazyzh/jest-html-reporters.git"
+    "url": "git+https://github.com/cookieps/jest-html-reporters-custom.git"
   },
   "bugs": {
-    "url": "https://github.com/Hazyzh/jest-html-reporters/issues"
+    "url": "https://github.com/cookieps/jest-html-reporters-custom/issues"
   },
-  "homepage": "https://github.com/Hazyzh/jest-html-reporters#readme",
+  "homepage": "https://github.com/cookieps/jest-html-reporters-custom#readme",
   "devDependencies": {
     "@ant-design/icons": "^4.2.2",
     "@babel/cli": "^7.11.6",
